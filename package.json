@@ -1,0 +1,38 @@
+{
+  "name": "@sheet-api/html",
+  "version": "0.0.0",
+  "description": "Sheet API as HTML Templates",
+  "main": "dist/sheet-api-html.js",
+  "scripts": {
+    "build": "webpack && NODE_ENV=production webpack",
+    "dev": "webpack --watch",
+    "server": "http-server",
+    "eslint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sheet-API/sheet-api-html.git"
+  },
+  "keywords": [
+    "sheet-api",
+    "sheet",
+    "api",
+    "google",
+    "spreadsheet"
+  ],
+  "author": "Sheet API <contact@sheetapi.rest>",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/Sheet-API/sheet-api-html/issues"
+  },
+  "homepage": "https://github.com/Sheet-API/sheet-api-html#readme",
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "http-server": "^14.1.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {}
+}
