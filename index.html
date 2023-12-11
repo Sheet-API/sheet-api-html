@@ -3,8 +3,35 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"/>
   </head>
   <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Form</h5>
+          <form
+            method="POST"
+            action="https://api.sheetapi.rest/api/v1/sheet/g5e09XKtRZ4OaydVCSSeK"
+            data-loading-msg="Loading..."
+            data-success-msg="Thank you! We have received your registration"
+            data-error-msg="Thank you! We have received your registration"
+          >
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" name="Name" placeholder="Enter your name" required />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" name="Email" placeholder="Enter your email" required />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <span class="sheet-api-success-container"></span>
+            <span class="sheet-api-error-container"></span>
+          </form>
+        </div>
+      </div>
+    </div>
     <script src="./dist/sheet-api-html.js"></script>
     <script>
     </script>
