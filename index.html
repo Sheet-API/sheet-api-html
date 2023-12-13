@@ -6,7 +6,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"/>
   </head>
   <body>
-    <div class="container">
+    <div class="container mt-4">
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">Form</h5>
@@ -31,16 +31,24 @@
         </div>
       </div>
     </div>
-    <table>
-      <tbody
-        data-sheet-api-url="https://api.sheetapi.rest/api/v1/sheet/g5e09XKtRZ4OaydVCSSeK"
-      >
-        <tr>
-          <td>{{ Name }}</td>
-          <td>{{ Email }}</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="container mt-4">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody
+          data-sheet-api-url="https://api.sheetapi.rest/api/v1/sheet/g5e09XKtRZ4OaydVCSSeK"
+        >
+          <tr>
+            <td>{{ Name }}</td>
+            <td>{{ Email }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
     <script src="./dist/sheet-api-html.js"></script>
     <script>
     </script>
