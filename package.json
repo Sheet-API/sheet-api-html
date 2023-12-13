@@ -1,8 +1,8 @@
 {
   "name": "@sheet-api/html",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Sheet API as HTML Templates",
-  "main": "dist/sheet-api-html.js",
+  "main": "dist/sheet-api-html.min.js",
   "scripts": {
     "build": "webpack && NODE_ENV=production webpack",
     "dev": "webpack --watch",
