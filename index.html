@@ -11,11 +11,10 @@
         <div class="card-body">
           <h5 class="card-title">Form</h5>
           <form
-            method="POST"
-            action="https://api.sheetapi.rest/api/v1/sheet/g5e09XKtRZ4OaydVCSSeK"
+            data-sheet-api-url="https://api.sheetapi.rest/api/v1/sheet/g5e09XKtRZ4OaydVCSSeK"
             data-loading-msg="Loading..."
             data-success-msg="Thank you! We have received your registration"
-            data-error-msg="Thank you! We have received your registration"
+            data-error-msg="Your submission failed, please try again later"
           >
             <div class="mb-3">
               <label for="name" class="form-label">Name</label>
@@ -32,6 +31,16 @@
         </div>
       </div>
     </div>
+    <table>
+      <tbody
+        data-sheet-api-url="https://api.sheetapi.rest/api/v1/sheet/g5e09XKtRZ4OaydVCSSeK"
+      >
+        <tr>
+          <td>{{ Name }}</td>
+          <td>{{ Email }}</td>
+        </tr>
+      </tbody>
+    </table>
     <script src="./dist/sheet-api-html.js"></script>
     <script>
     </script>
