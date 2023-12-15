@@ -120,3 +120,6 @@ After some seconds, the user will appear in the Sheet like in the image below
 (the new user being highlighted in yellow)
 
 ![Example HTML form with new User](./assets/example-form-new-user.png)
+
+To view another tutorial of how to integrate a form with Sheet API check this
+blog post: https://sheetapi.rest/posts/how-to-build-a-html-form-that-sends-data-to-sheet
